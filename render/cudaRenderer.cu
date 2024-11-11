@@ -500,6 +500,12 @@ __global__ void kernelRenderPixels() {
     //     printf("was here at pixel! \n");
     // }
 
+    // if ((pixelX == 480) && (pixelY == 736)) {
+    //     printf("was here!!!!!! \n");
+    //     printf("indeed here!!!!!! \n");
+
+    // }
+
     const int numCirclesPadded = nextPow2(cuConstRendererParams.numCircles);
     const int CIRCLE_STEP_LENGTH = 1024;
 
@@ -520,15 +526,12 @@ __global__ void kernelRenderPixels() {
     float invWidth = 1.f / imageWidth;
     float invHeight = 1.f / imageHeight;
 
-    __syncthreads();
-
     // float pixelLeft = invWidth * (static_cast<float>(pixelX) - 0.5f);
     // float pixelRight = invWidth * (static_cast<float>(pixelX) + 0.5f);
     // float pixelBottom = invHeight * (static_cast<float>(pixelY) - 0.5f);
     // float pixelTop = invHeight * (static_cast<float>(pixelY) + 0.5f);
 
     for (int circleIndex = 0; circleIndex < cuConstRendererParams.numCircles; circleIndex += CIRCLE_STEP_LENGTH) {
-        __syncthreads();
         int circleIndexForThread = circleIndex + THREAD_TO_CIRCLE_OFFSET;
         for (int k = 0; k < CIRCLES_PER_THREAD; k++) {
             int circleIndexAtK = circleIndexForThread + k;
@@ -571,8 +574,6 @@ __global__ void kernelRenderPixels() {
             circleArray[totalNumberCircles] = CIRCLE_STEP_LENGTH - 1;
             totalNumberCircles++;
         }
-
-        __syncthreads();
 
         // todo fix this return condition
         if (((pixelX < imageWidth) && (pixelY < imageHeight))) {
@@ -654,7 +655,14 @@ __global__ void kernelRenderPixels() {
                 }
             }
             *imgPtr = newColor;
-        }
+
+            // if ((pixelX == 480) && (pixelY == 736)) {
+            //     printf("total number of circles: %d \n", totalNumberCircles);
+            //     printf("x: %f, y: %f, z: %f \n", newColor.x, newColor.y, newColor.z);
+            //     printf("value at index: %f \n", cuConstRendererParams.imageData[4 * (pixelY * imageWidth + pixelX)]);
+            //     // for (int j = 0; j < totalNumberCircles; j++) {
+            //     printf("circle index: %d \n", circleIndex);
+            // }
 
         }
         // else {
@@ -894,12 +902,17 @@ CudaRenderer::render() {
 
     // 256 threads per block is a healthy number
     dim3 blockDim(32, 32);
-    dim3 gridDimPixel((numPixels + (blockDim.x * blockDim.y) - 1) / (blockDim.x * blockDim.y));
+    
+    int numPixelsPadded = (image->width + (blockDim.x * blockDim.y) - 1) / ((blockDim.x * blockDim.y));
+    numPixelsPadded = (blockDim.x * blockDim.y) * numPixelsPadded;
+    // printf("num pixels padded: %d", numPixelsPadded);
+    // dim3 gridDimPixel((numPixels + (blockDim.x * blockDim.y) - 1) / (blockDim.x * blockDim.y));
+    dim3 gridDimPixel(numPixelsPadded);
     kernelRenderPixels<<<gridDimPixel, blockDim>>>();
     cudaCheckError(cudaDeviceSynchronize());
     // float4* imgPtr = (float4*)(&cuConstRendererParams.imageData[4 * (2 * image->width + 0)]);
     // auto color = *imgPtr;
     // printf("%f",(color.x));
 
-    printf("%f \n", image->data[4 * (2 * image->width + 0)]);
+    // printf("%f \n", image->data[4 * (2 * image->width + 0)]);
 }
