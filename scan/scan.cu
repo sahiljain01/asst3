@@ -240,7 +240,7 @@ void printCudaArray(int* d_array, int n) {
 
     // Free host memory
     delete[] h_array;
-}./render -r cpuref snow
+}
 
 // find_repeats --
 //
