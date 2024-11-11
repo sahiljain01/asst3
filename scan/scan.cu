@@ -73,32 +73,6 @@ downsweep_parallel_for(int* input, int N, int* result, int two_d) {
 // Also, as per the comments in cudaScan(), you can implement an
 // "in-place" scan, since the timing harness makes a copy of input and
 // places it in result
-// void exclusive_scan(int* input, int N, int* result)
-// {
-//     int rounded_length = nextPow2(N);
-//     cudaMemset(&result[N], 0, sizeof(float) * (rounded_length - N) );
-//     const int threadsPerBlock = min(N, 512);
-
-//     // upsweep
-//     for (int two_d = 1; two_d <= N/2; two_d*=2) {
-//         int two_dplus1 = 2*two_d;
-//         int threadsPerBlock_iter = (N + two_dplus1 - 1) / two_dplus1;
-//         int blocks_iter = (N + threadsPerBlock - 1) / threadsPerBlock;
-//         upsweep_parallel_for<<<blocks_iter, threadsPerBlock_iter>>>(input, N, result, two_d);
-//         cudaDeviceSynchronize();
-//     }
-
-//     cudaMemset(&result[N-1], 0, sizeof(float));
-
-//     for (int two_d = N/2; two_d >= 1; two_d /= 2) {
-//         printf("starting a new iteration with two_d %d \n", two_d);
-//         int two_dplus1 = 2*two_d;
-//         int threadsPerBlock_iter = (N + two_dplus1 - 1) / two_dplus1;
-//         int blocks_iter = (N + threadsPerBlock - 1) / threadsPerBlock;
-//         downsweep_parallel_for<<<blocks_iter, threadsPerBlock_iter>>>(input, N, result, two_d);
-//         cudaDeviceSynchronize();
-//     }
-// }
 
 void exclusive_scan(int* input, int N, int* result)
 {
@@ -218,6 +192,9 @@ __global__ void
 add_repeated_entry_to_array(int* differenceResult, int* scanResult, int N, int* result, int* size) {
     int index = blockIdx.x * blockDim.x + threadIdx.x;
     int nextIndexIsDuplicate = differenceResult[index];
+    if (index > (N - 1)) {
+        return;
+    }
     if (nextIndexIsDuplicate == 1) {
         // printf("value at scan result index: %d equals: %d \n", scanResult[index+1], index);
         result[scanResult[index+1] - 1] = index;
@@ -248,6 +225,22 @@ set_one_if_next_equal(int* input, int N, int* result, int* result2) {
     }
 }
 
+void printCudaArray(int* d_array, int n) {
+    // Allocate memory on the host
+    int* h_array = new int[n];
+
+    // Copy data from device (GPU) to host (CPU)
+    cudaMemcpy(h_array, d_array, n * sizeof(float), cudaMemcpyDeviceToHost);
+
+    // Print the array
+    for (int i = 0; i < n; ++i) {
+        std::cout << "index: " << i << ", value: " << h_array[i] << "\n";
+    }
+    std::cout << std::endl;
+
+    // Free host memory
+    delete[] h_array;
+}./render -r cpuref snow
 
 // find_repeats --
 //
@@ -278,13 +271,12 @@ int find_repeats(int* device_input, int length, int* device_output) {
     // result to return:
     // { 1, 3, 5}
 
-    // TODO: need to memCpy 0 into device_output array?
-    // int rounded_length = nextPow2(N);
-    // cudaMemset(&result[N], 0, sizeof(float) * (rounded_length - N) );
     int* diff_result;
     int* scan_result;
     int* size;
     int sizeToReturn;
+
+    // printCudaArray(device_input, length);
 
     int rounded_length = nextPow2(length);
     cudaMalloc((void **)&scan_result, sizeof(int) * rounded_length);
@@ -296,13 +288,16 @@ int find_repeats(int* device_input, int length, int* device_output) {
 
     set_one_if_next_equal<<<numBlocks, threadsPerBlock>>>(device_input, length, diff_result, scan_result);
 
+    // printCudaArray(diff_result, length);
+
     cudaDeviceSynchronize();
     exclusive_scan(diff_result, length, scan_result);
     cudaDeviceSynchronize();
     add_repeated_entry_to_array<<<numBlocks, threadsPerBlock>>>(diff_result, scan_result, length, device_output, size);
     cudaDeviceSynchronize();
     cudaMemcpy(&sizeToReturn, size, sizeof(int), cudaMemcpyDeviceToHost);
-    // printf("size to return: %d \n", sizeToReturn);
+
+    // printCudaArray(device_output, sizeToReturn);
     return sizeToReturn;
 }
 
