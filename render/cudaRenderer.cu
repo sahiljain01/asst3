@@ -15,6 +15,9 @@
 #include "util.h"
 
 #include "circleBoxTest.cu_inl"
+#define SCAN_BLOCK_DIM 256
+
+#include "exclusiveScan.cu_inl"
 
 
 #define DEBUG
@@ -449,6 +452,13 @@ __global__ void kernelRenderCircles() {
     }
 }
 
+__device__ void
+findCirclesWithPositiveIndex(int threadIndex, uint* sInput, uint* sOutput, int N) {
+    if ((threadIndex < (N - 1)) && (sInput[threadIndex] != sInput[threadIndex+1])) {
+        sOutput[sInput[threadIndex]] = threadIndex;
+    }
+}
+
 __device__ static inline int
 nextPow2(int n) {
     n--;
@@ -461,6 +471,13 @@ nextPow2(int n) {
     return n;
 }
 
+__device__ void printArray(uint *d_array) {
+    for (int i = 0; i < 10; i++) {
+        printf("Thread %d: d_array[%d] = %d\n", i, i, d_array[i]);
+    }
+}
+
+
 __global__ void kernelRenderPixels() {
 
     // todo: handle the case where there is less than circle step length number of circles
@@ -471,8 +488,6 @@ __global__ void kernelRenderPixels() {
     int blocksInRow = max(imageWidth / blockDim.x, 1);
     int currentBlockRow = blockIdx.x / blocksInRow;
     int currentBlockColumn = blockIdx.x % blocksInRow;
-
-    // printf("blocks in row: %d, current block row: %d, current block column: %d, image width: %d, image height: %d \n, block Idx: %d \n", blocksInRow, currentBlockRow, currentBlockColumn, imageWidth, imageHeight, blockIdx.x);
 
     int minPixelX = currentBlockColumn * blockDim.x;
     int maxPixelX = minPixelX + blockDim.x;
@@ -487,18 +502,26 @@ __global__ void kernelRenderPixels() {
     if ((pixelX > imageWidth) || (pixelY > imageHeight))
         return;
 
-    // if ((pixelX == 205) && (pixelY == 391))
-    // if (blockIdx.x == 1548) {
-    //     printf("min pixel x: %d, max pixel x: %d, min pixel y: %d, max pixel y: %d \n", minPixelX, maxPixelX, minPixelY, maxPixelY);
-    //     printf("found a pixel! x: %d, y: %d, blockIdx: %d \n", pixelX, pixelY, blockIdx.x);    
-    // }
+    if ((pixelX == 0) && (pixelY == 0)) {
+        printf("was here: %d, %d \n", pixelX, pixelY);
+    }
 
     const int numCirclesPadded = nextPow2(cuConstRendererParams.numCircles);
-    // const int CIRCLE_STEP_LENGTH = min(1024, numCirclesPadded);
     const int CIRCLE_STEP_LENGTH = 256;
+
     __shared__ uint shouldCheckCircle[CIRCLE_STEP_LENGTH];
     __shared__ uint resultArray[CIRCLE_STEP_LENGTH];
-    __shared__ uint scratchArray[CIRCLE_STEP_LENGTH];
+    __shared__ uint circleArray[CIRCLE_STEP_LENGTH];
+    __shared__ uint scratchArray[CIRCLE_STEP_LENGTH * 2];
+
+    int currentThreadIndexForReset = threadIdx.y * blockDim.x + threadIdx.x;
+
+    shouldCheckCircle[currentThreadIndexForReset] = 0;
+    resultArray[currentThreadIndexForReset] = 0; 
+    circleArray[currentThreadIndexForReset] = 0; 
+    scratchArray[currentThreadIndexForReset] = 0; 
+
+    __syncthreads();
 
     const int NUM_THREADS_WORKING = blockDim.x * blockDim.y;
     const int CIRCLES_PER_THREAD = CIRCLE_STEP_LENGTH / NUM_THREADS_WORKING;
@@ -529,43 +552,97 @@ __global__ void kernelRenderPixels() {
 
     for (int circleIndex = 0; circleIndex < cuConstRendererParams.numCircles; circleIndex += CIRCLE_STEP_LENGTH) {
         int circleIndexForThread = circleIndex + THREAD_TO_CIRCLE_OFFSET;
-        // todo -- bound this for smaller values
-        for (int k = 0; k < CIRCLES_PER_THREAD; k++) {
-            int circleIndexAtK = circleIndexForThread + k;
-            float3 p = *(float3*)(&cuConstRendererParams.position[circleIndexAtK * 3]);
-            float rad = cuConstRendererParams.radius[circleIndexAtK];
+        if (circleIndexForThread < cuConstRendererParams.numCircles) {
+            for (int k = 0; k < CIRCLES_PER_THREAD; k++) {
+                int circleIndexAtK = circleIndexForThread + k;
+                float3 p = *(float3*)(&cuConstRendererParams.position[circleIndexAtK * 3]);
+                float rad = cuConstRendererParams.radius[circleIndexAtK];
 
-            // if ((blockIdx.x == 1548) && circleIndexAtK < 3) {
-            //     printf("min pixel x: %d, max pixel x: %d, min pixel y: %d, max pixel y: %d, p.x: %f, p.y: %f, radius: %f \n", minPixelX, maxPixelX, minPixelY, maxPixelY, p.x, p.y, rad);
-            // }
+                // printf("circle: %d, circleInBoxConservative(%.6f, %.6f, %.6f)\n",
+                //     circleIndexAtK,
+                //     p.x * imageWidth,  // p.x * imageWidth
+                //     p.y * imageHeight, // p.y * imageHeight
+                //     rad * imageWidth  // rad * imageWidth
+                // );       
 
-            if (circleInBoxConservative(p.x * imageWidth, p.y * imageHeight, rad * imageWidth, minPixelX, maxPixelX, maxPixelY, minPixelY)) {
-                if (circleInBox(p.x * imageWidth, p.y * imageHeight, rad * imageWidth , minPixelX, maxPixelX, maxPixelY, minPixelY)) {
-                    // if (blockIdx.x == 1548) {
-                    //     printf("found an intersecting bounding box!");
+                // if ((minPixelX == 192) && (maxPixelX == 208) && (minPixelY == 384) && (maxPixelY == 400)) {
+                //     printf("circle index: %d, was here for circle!!!!\n", circleIndexAtK);
+                //     printf("circle index: %d, p_x: %f, p_y: %f, rad: %f \n", circleIndexAtK, p.x * imageWidth, p.y * imageHeight, rad * imageWidth);
+                // }
+
+                if (circleInBoxConservative(p.x * imageWidth, p.y * imageHeight, rad * imageWidth, minPixelX, maxPixelX, maxPixelY, minPixelY)) {
+                    // if ((minPixelX == 192) && (maxPixelX == 208) && (minPixelY == 384) && (maxPixelY == 400)) {
+                    //     printf("circle index: %d, passed first test!!!!\n", circleIndexAtK);
                     // }
-                    shouldCheckCircle[THREAD_TO_CIRCLE_OFFSET + k] = 1;
-                }
-                else {
-                    shouldCheckCircle[THREAD_TO_CIRCLE_OFFSET + k] = 0;
+                    if (circleInBox(p.x * imageWidth, p.y * imageHeight, rad * imageWidth , minPixelX, maxPixelX, maxPixelY, minPixelY)) {
+                        // printf("Block: %d, setting should check circle to 1! at index: %d \n", blockIdx.x, THREAD_TO_CIRCLE_OFFSET + k);
+                        // if ((minPixelX == 192) && (maxPixelX == 208) && (minPixelY == 384) && (maxPixelY == 400)) {
+                        //     printf("circle index: %d, passed second test!!!!\n", circleIndexAtK);
+                        // }
+                        shouldCheckCircle[THREAD_TO_CIRCLE_OFFSET + k] = 1;
+                    }
                 }
             }
         }
+
+        // if ((pixelX == 205) && (pixelY == 389)) {
+        //     // printf("circleInBoxConservative(%.6f, %.6f, %.6f, %d, %d, %d, %d)\n",
+        //     //         p.x * imageWidth,  // p.x * imageWidth
+        //     //         p.y * imageHeight, // p.y * imageHeight
+        //     //         rad * imageWidth,  // rad * imageWidth
+        //     //         minPixelX,         // minPixelX
+        //     //         maxPixelX,         // maxPixelX
+        //     //         maxPixelY,         // maxPixelY
+        //     //         minPixelY
+        //     // );       
+        //     printf("circleInBoxConservative(%d, %d, %d, %d)\n",
+        //         minPixelX,  // minPixelX
+        //         maxPixelX,  // maxPixelX
+        //         maxPixelY,  // maxPixelY
+        //         minPixelY
+        //     );  
+
+        // }
+
 
         __syncthreads();
 
         // exclusive scan on the should check circle array
         int threadIndexOffset = (threadIdx.y * blockDim.x + threadIdx.x);
-        sharedMemExclusiveScan(threadIndexOffset, shouldCheckCircle, resultArray, )
+        sharedMemExclusiveScan(threadIndexOffset, shouldCheckCircle, resultArray, scratchArray, CIRCLE_STEP_LENGTH);
+        __syncthreads();
 
-        for (int j = 0; j < CIRCLE_STEP_LENGTH; j++) {
-            float3 p = *(float3*)(&cuConstRendererParams.position[(j + circleIndex) * 3]);
-            // need to redo check here to actually ensure validity
-            if (shouldCheckCircle[j] == 1) {
-                // if ((pixelX == 205) && (pixelY == 391))
-                //     printf("shading a pixel! x: %d, y: %d \n", pixelX, pixelY);
-                shadePixel(j + circleIndex, pixelCenterNorm, p, imgPtr);
-            }
+        int totalNumberCircles = resultArray[CIRCLE_STEP_LENGTH - 1];
+
+        // printArray(shouldCheckCircle);
+        // printArray(resultArray);
+
+        // compute indices of the circles
+        findCirclesWithPositiveIndex(threadIndexOffset, resultArray, circleArray, CIRCLE_STEP_LENGTH);
+        __syncthreads();
+
+        // if ((pixelX == 205) && (pixelY == 491)) {
+        //     // totalNumberCircles = 3;
+        //     printf("total number of circles %d \n", totalNumberCircles);
+        // }
+
+        // if ((pixelX == 0) && (pixelY == 0)) {
+        //     printArray(circleArray);
+        // }
+        for (int j = 0; j < totalNumberCircles; j++) {
+            int currentCircle = circleArray[j] + circleIndex;
+            float3 p = *(float3*)(&cuConstRendererParams.position[(currentCircle) * 3]);
+            // need to redo check here to actually ensure  validity
+            // if ((pixelX == 205) && (pixelY == 491)) {
+            //     printArray(circleArray);
+            //     printf("circle array at j:  %d, equals: %d \n", j, currentCircle);
+            //     printf("shading for the relevant pixel!, circle index: %d \n", currentCircle);
+            //     shadePixel(currentCircle, pixelCenterNorm, p, imgPtr);
+            // }
+            // else {
+            //     shadePixel(currentCircle, pixelCenterNorm, p, imgPtr);
+            // }
+            shadePixel(currentCircle, pixelCenterNorm, p, imgPtr);
         }
         __syncthreads();
     }
