@@ -500,7 +500,7 @@ __global__ void kernelRenderPixels() {
     //     printf("was here at pixel! \n");
     // }
 
-    // if ((pixelX == 480) && (pixelY == 736)) {
+    // if ((pixelX == 416) && (pixelY == 1184)) {
     //     printf("was here!!!!!! \n");
     //     printf("indeed here!!!!!! \n");
 
@@ -656,7 +656,7 @@ __global__ void kernelRenderPixels() {
             }
             *imgPtr = newColor;
 
-            // if ((pixelX == 480) && (pixelY == 736)) {
+            // if ((pixelX == 416) && (pixelY == 1184)) {
             //     printf("total number of circles: %d \n", totalNumberCircles);
             //     printf("x: %f, y: %f, z: %f \n", newColor.x, newColor.y, newColor.z);
             //     printf("value at index: %f \n", cuConstRendererParams.imageData[4 * (pixelY * imageWidth + pixelX)]);
@@ -900,19 +900,11 @@ CudaRenderer::advanceAnimation() {
 void
 CudaRenderer::render() {
 
-    // 256 threads per block is a healthy number
     dim3 blockDim(32, 32);
-    
-    int numPixelsPadded = (image->width + (blockDim.x * blockDim.y) - 1) / ((blockDim.x * blockDim.y));
-    numPixelsPadded = (blockDim.x * blockDim.y) * numPixelsPadded;
-    // printf("num pixels padded: %d", numPixelsPadded);
-    // dim3 gridDimPixel((numPixels + (blockDim.x * blockDim.y) - 1) / (blockDim.x * blockDim.y));
-    dim3 gridDimPixel(numPixelsPadded);
+    int numRowBlocks = (image->width + (blockDim.x) - 1) / (blockDim.x);
+    int numColBlocks = (image->height + (blockDim.y) - 1) / (blockDim.y);
+
+    dim3 gridDimPixel(numRowBlocks * numColBlocks);
     kernelRenderPixels<<<gridDimPixel, blockDim>>>();
     cudaCheckError(cudaDeviceSynchronize());
-    // float4* imgPtr = (float4*)(&cuConstRendererParams.imageData[4 * (2 * image->width + 0)]);
-    // auto color = *imgPtr;
-    // printf("%f",(color.x));
-
-    // printf("%f \n", image->data[4 * (2 * image->width + 0)]);
 }
