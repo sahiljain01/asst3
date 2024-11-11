@@ -14,6 +14,26 @@
 #include "sceneLoader.h"
 #include "util.h"
 
+#include "circleBoxTest.cu_inl"
+
+
+#define DEBUG
+
+#ifdef DEBUG
+#define cudaCheckError(ans) { cudaAssert((ans), __FILE__, __LINE__); }
+inline void cudaAssert(cudaError_t code, const char *file, int line, bool abort=true)
+{
+   if (code != cudaSuccess)
+   {
+      fprintf(stderr, "CUDA Error: %s at %s:%d\n",
+        cudaGetErrorString(code), file, line);
+      if (abort) exit(code);
+   }
+}
+#else
+#define cudaCheckError(ans) ans
+#endif
+
 ////////////////////////////////////////////////////////////////////////////////////////
 // Putting all the cuda kernels here
 ///////////////////////////////////////////////////////////////////////////////////////
@@ -23,10 +43,12 @@ struct GlobalConstants {
     SceneName sceneName;
 
     int numCircles;
+    int numPixels;
     float* position;
     float* velocity;
     float* color;
     float* radius;
+    float* circleToPixel;
 
     int imageWidth;
     int imageHeight;
@@ -395,7 +417,7 @@ __global__ void kernelRenderCircles() {
 
     // read position and radius
     float3 p = *(float3*)(&cuConstRendererParams.position[index3]);
-    float  rad = cuConstRendererParams.radius[index];
+    float rad = cuConstRendererParams.radius[index];
 
     // compute the bounding box of the circle. The bound is in integer
     // screen coordinates, so it's clamped to the edges of the screen.
@@ -427,12 +449,136 @@ __global__ void kernelRenderCircles() {
     }
 }
 
+__device__ static inline int
+nextPow2(int n) {
+    n--;
+    n |= n >> 1;
+    n |= n >> 2;
+    n |= n >> 4;
+    n |= n >> 8;
+    n |= n >> 16;
+    n++;
+    return n;
+}
+
+__global__ void kernelRenderPixels() {
+
+    // todo: handle the case where there is less than circle step length number of circles
+    // construct the bounding box
+    short imageWidth = cuConstRendererParams.imageWidth;
+    short imageHeight = cuConstRendererParams.imageHeight;
+
+    int blocksInRow = max(imageWidth / blockDim.x, 1);
+    int currentBlockRow = blockIdx.x / blocksInRow;
+    int currentBlockColumn = blockIdx.x % blocksInRow;
+
+    // printf("blocks in row: %d, current block row: %d, current block column: %d, image width: %d, image height: %d \n, block Idx: %d \n", blocksInRow, currentBlockRow, currentBlockColumn, imageWidth, imageHeight, blockIdx.x);
+
+    int minPixelX = currentBlockColumn * blockDim.x;
+    int maxPixelX = minPixelX + blockDim.x;
+    int minPixelY = currentBlockRow * blockDim.y;
+    int maxPixelY = minPixelY + blockDim.y;
+
+
+    int pixelX = minPixelX + threadIdx.x;
+    int pixelY = minPixelY + threadIdx.y;
+
+    // todo fix this return condition
+    if ((pixelX > imageWidth) || (pixelY > imageHeight))
+        return;
+
+    // if ((pixelX == 205) && (pixelY == 391))
+    // if (blockIdx.x == 1548) {
+    //     printf("min pixel x: %d, max pixel x: %d, min pixel y: %d, max pixel y: %d \n", minPixelX, maxPixelX, minPixelY, maxPixelY);
+    //     printf("found a pixel! x: %d, y: %d, blockIdx: %d \n", pixelX, pixelY, blockIdx.x);    
+    // }
+
+    const int numCirclesPadded = nextPow2(cuConstRendererParams.numCircles);
+    // const int CIRCLE_STEP_LENGTH = min(1024, numCirclesPadded);
+    const int CIRCLE_STEP_LENGTH = 256;
+    __shared__ uint shouldCheckCircle[CIRCLE_STEP_LENGTH];
+    __shared__ uint resultArray[CIRCLE_STEP_LENGTH];
+    __shared__ uint scratchArray[CIRCLE_STEP_LENGTH];
+
+    const int NUM_THREADS_WORKING = blockDim.x * blockDim.y;
+    const int CIRCLES_PER_THREAD = CIRCLE_STEP_LENGTH / NUM_THREADS_WORKING;
+    const int THREAD_TO_CIRCLE_OFFSET = (threadIdx.y * blockDim.x + threadIdx.x) * CIRCLES_PER_THREAD;
+
+    float invWidth = 1.f / imageWidth;
+    float invHeight = 1.f / imageHeight;
+
+    /*
+        High level goal is to prune the space of circles being explored.
+        To do this, let's define pixel `block`(s) which represent a bounding box of pixels.
+
+        Then, we can generate a bounding box around this set of pixels, and figure out the
+        circles that intersect with our bounding box. (use both the circle test functions)
+
+        To do this, let's first assign each thread in the thread block a set of the circle space.
+        we should also create a shared memory array per thread block with size == num circles.
+
+        Then, each thread will iterate through the threads in its circle space, and update the
+        corresponding circle index with 1 if contained else 0.
+
+        Now, we have a list of circles per bounding box. I think we want to use exclusive scan here.
+    */
+
+    float4* imgPtr = (float4*)(&cuConstRendererParams.imageData[4 * (pixelY * imageWidth + pixelX)]);
+    float2 pixelCenterNorm = make_float2(invWidth * (static_cast<float>(pixelX) + 0.5f),
+                                        invHeight * (static_cast<float>(pixelY) + 0.5f));
+
+    for (int circleIndex = 0; circleIndex < cuConstRendererParams.numCircles; circleIndex += CIRCLE_STEP_LENGTH) {
+        int circleIndexForThread = circleIndex + THREAD_TO_CIRCLE_OFFSET;
+        // todo -- bound this for smaller values
+        for (int k = 0; k < CIRCLES_PER_THREAD; k++) {
+            int circleIndexAtK = circleIndexForThread + k;
+            float3 p = *(float3*)(&cuConstRendererParams.position[circleIndexAtK * 3]);
+            float rad = cuConstRendererParams.radius[circleIndexAtK];
+
+            // if ((blockIdx.x == 1548) && circleIndexAtK < 3) {
+            //     printf("min pixel x: %d, max pixel x: %d, min pixel y: %d, max pixel y: %d, p.x: %f, p.y: %f, radius: %f \n", minPixelX, maxPixelX, minPixelY, maxPixelY, p.x, p.y, rad);
+            // }
+
+            if (circleInBoxConservative(p.x * imageWidth, p.y * imageHeight, rad * imageWidth, minPixelX, maxPixelX, maxPixelY, minPixelY)) {
+                if (circleInBox(p.x * imageWidth, p.y * imageHeight, rad * imageWidth , minPixelX, maxPixelX, maxPixelY, minPixelY)) {
+                    // if (blockIdx.x == 1548) {
+                    //     printf("found an intersecting bounding box!");
+                    // }
+                    shouldCheckCircle[THREAD_TO_CIRCLE_OFFSET + k] = 1;
+                }
+                else {
+                    shouldCheckCircle[THREAD_TO_CIRCLE_OFFSET + k] = 0;
+                }
+            }
+        }
+
+        __syncthreads();
+
+        // exclusive scan on the should check circle array
+        int threadIndexOffset = (threadIdx.y * blockDim.x + threadIdx.x);
+        sharedMemExclusiveScan(threadIndexOffset, shouldCheckCircle, resultArray, )
+
+        for (int j = 0; j < CIRCLE_STEP_LENGTH; j++) {
+            float3 p = *(float3*)(&cuConstRendererParams.position[(j + circleIndex) * 3]);
+            // need to redo check here to actually ensure validity
+            if (shouldCheckCircle[j] == 1) {
+                // if ((pixelX == 205) && (pixelY == 391))
+                //     printf("shading a pixel! x: %d, y: %d \n", pixelX, pixelY);
+                shadePixel(j + circleIndex, pixelCenterNorm, p, imgPtr);
+            }
+        }
+        __syncthreads();
+    }
+}
+
+
 ////////////////////////////////////////////////////////////////////////////////////////
 
 
 CudaRenderer::CudaRenderer() {
     image = NULL;
 
+    numPixels = 0;
     numCircles = 0;
     position = NULL;
     velocity = NULL;
@@ -444,6 +590,7 @@ CudaRenderer::CudaRenderer() {
     cudaDeviceColor = NULL;
     cudaDeviceRadius = NULL;
     cudaDeviceImageData = NULL;
+    cudaCircleToPixel = NULL;
 }
 
 CudaRenderer::~CudaRenderer() {
@@ -493,6 +640,8 @@ CudaRenderer::loadScene(SceneName scene) {
 void
 CudaRenderer::setup() {
 
+    numPixels = image->width * image->height;
+
     int deviceCount = 0;
     std::string name;
     cudaError_t err = cudaGetDeviceCount(&deviceCount);
@@ -520,16 +669,26 @@ CudaRenderer::setup() {
     // See the CUDA Programmer's Guide for descriptions of
     // cudaMalloc and cudaMemcpy
 
+    // long long numCirclesLong = static_cast<long long>(numCircles);
+    // long long numPixelsLong = static_cast<long long>(numPixels);
+    // printf("allocated circle to pixel of size: %lld \n", numCirclesLong * numPixelsLong);
+
+    // circleToPixel = new float[numCirclesLong * numPixelsLong];
+    // printf("number circles %d \n", numCircles);
+    // printf("number pixels %d \n", numPixels);
+
     cudaMalloc(&cudaDevicePosition, sizeof(float) * 3 * numCircles);
     cudaMalloc(&cudaDeviceVelocity, sizeof(float) * 3 * numCircles);
     cudaMalloc(&cudaDeviceColor, sizeof(float) * 3 * numCircles);
     cudaMalloc(&cudaDeviceRadius, sizeof(float) * numCircles);
     cudaMalloc(&cudaDeviceImageData, sizeof(float) * 4 * image->width * image->height);
+    // cudaMalloc(&cudaCircleToPixel, sizeof(float) * numCircles * numPixels);
 
     cudaMemcpy(cudaDevicePosition, position, sizeof(float) * 3 * numCircles, cudaMemcpyHostToDevice);
     cudaMemcpy(cudaDeviceVelocity, velocity, sizeof(float) * 3 * numCircles, cudaMemcpyHostToDevice);
     cudaMemcpy(cudaDeviceColor, color, sizeof(float) * 3 * numCircles, cudaMemcpyHostToDevice);
     cudaMemcpy(cudaDeviceRadius, radius, sizeof(float) * numCircles, cudaMemcpyHostToDevice);
+    // cudaMemcpy(cudaCircleToPixel, circleToPixel, sizeof(float) * numCircles * numPixels, cudaMemcpyHostToDevice);
 
     // Initialize parameters in constant memory.  We didn't talk about
     // constant memory in class, but the use of read-only constant
@@ -542,6 +701,7 @@ CudaRenderer::setup() {
     GlobalConstants params;
     params.sceneName = sceneName;
     params.numCircles = numCircles;
+    params.numPixels = numPixels;
     params.imageWidth = image->width;
     params.imageHeight = image->height;
     params.position = cudaDevicePosition;
@@ -549,6 +709,7 @@ CudaRenderer::setup() {
     params.color = cudaDeviceColor;
     params.radius = cudaDeviceRadius;
     params.imageData = cudaDeviceImageData;
+    params.circleToPixel = cudaCircleToPixel;
 
     cudaMemcpyToSymbol(cuConstRendererParams, &params, sizeof(GlobalConstants));
 
@@ -637,9 +798,18 @@ void
 CudaRenderer::render() {
 
     // 256 threads per block is a healthy number
-    dim3 blockDim(256, 1);
-    dim3 gridDim((numCircles + blockDim.x - 1) / blockDim.x);
 
-    kernelRenderCircles<<<gridDim, blockDim>>>();
-    cudaDeviceSynchronize();
+    // find all the pixels that a given cell touches
+    // kernelFindPixelsForCircle<<<gridDim, blockDim>>>();
+    // cudaCheckError(cudaDeviceSynchronize());
+
+    // goal is to parallelise the circle calculation
+
+    // printf("image width: %d, image height: %d \n", image->width, image->height);
+    // printf("number of pixels: %d \n", numPixels);
+
+    dim3 blockDim(16, 16);
+    dim3 gridDimPixel((numPixels + (blockDim.x * blockDim.y) - 1) / (blockDim.x * blockDim.y));
+    kernelRenderPixels<<<gridDimPixel, blockDim>>>();
+    cudaCheckError(cudaDeviceSynchronize());
 }

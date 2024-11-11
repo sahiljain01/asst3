@@ -1,0 +1,2096 @@
+Rendering to 1024x1024 image
+Loaded scene with 3 circles
+Loaded scene with 3 circles
+---------------------------------------------------------
+Initializing CUDA for CudaRenderer
+Found 1 CUDA devices
+Device 0: NVIDIA T4G
+   SMs:        40
+   Global mem: 14918 MB
+   CUDA Cap:   7.5
+---------------------------------------------------------
+
+Running benchmark, 1 frames, beginning at frame 0 ...
+Dumping frames to output_xxx.ppm
+checked circle: 896 
+checked circle: 900 
+checked circle: 904 
+checked circle: 908 
+checked circle: 912 
+checked circle: 916 
+checked circle: 920 
+checked circle: 924 
+checked circle: 928 
+checked circle: 932 
+checked circle: 936 
+checked circle: 940 
+checked circle: 944 
+checked circle: 948 
+checked circle: 952 
+checked circle: 956 
+checked circle: 960 
+checked circle: 964 
+checked circle: 968 
+checked circle: 972 
+checked circle: 976 
+checked circle: 980 
+checked circle: 984 
+checked circle: 988 
+checked circle: 992 
+checked circle: 996 
+checked circle: 1000 
+checked circle: 1004 
+checked circle: 1008 
+checked circle: 1012 
+checked circle: 1016 
+checked circle: 1020 
+checked circle: 384 
+checked circle: 388 
+checked circle: 392 
+checked circle: 396 
+checked circle: 400 
+checked circle: 404 
+checked circle: 408 
+checked circle: 412 
+checked circle: 416 
+checked circle: 420 
+checked circle: 424 
+checked circle: 428 
+checked circle: 432 
+checked circle: 436 
+checked circle: 440 
+checked circle: 444 
+checked circle: 448 
+checked circle: 452 
+checked circle: 456 
+checked circle: 460 
+checked circle: 464 
+checked circle: 468 
+checked circle: 472 
+checked circle: 476 
+checked circle: 480 
+checked circle: 484 
+checked circle: 488 
+checked circle: 492 
+checked circle: 496 
+checked circle: 500 
+checked circle: 504 
+checked circle: 508 
+checked circle: 640 
+checked circle: 644 
+checked circle: 648 
+checked circle: 652 
+checked circle: 656 
+checked circle: 660 
+checked circle: 664 
+checked circle: 668 
+checked circle: 672 
+checked circle: 676 
+checked circle: 680 
+checked circle: 684 
+checked circle: 688 
+checked circle: 692 
+checked circle: 696 
+checked circle: 700 
+checked circle: 704 
+checked circle: 708 
+checked circle: 712 
+checked circle: 716 
+checked circle: 720 
+checked circle: 724 
+checked circle: 728 
+checked circle: 732 
+checked circle: 736 
+checked circle: 740 
+checked circle: 744 
+checked circle: 748 
+checked circle: 752 
+checked circle: 756 
+checked circle: 760 
+checked circle: 764 
+checked circle: 128 
+checked circle: 132 
+checked circle: 136 
+checked circle: 140 
+checked circle: 144 
+checked circle: 148 
+checked circle: 152 
+checked circle: 156 
+checked circle: 160 
+checked circle: 164 
+checked circle: 168 
+checked circle: 172 
+checked circle: 176 
+checked circle: 180 
+checked circle: 184 
+checked circle: 188 
+checked circle: 192 
+checked circle: 196 
+checked circle: 200 
+checked circle: 204 
+checked circle: 208 
+checked circle: 212 
+checked circle: 216 
+checked circle: 220 
+checked circle: 224 
+checked circle: 228 
+checked circle: 232 
+checked circle: 236 
+checked circle: 240 
+checked circle: 244 
+checked circle: 248 
+checked circle: 252 
+checked circle: 512 
+checked circle: 516 
+checked circle: 520 
+checked circle: 524 
+checked circle: 528 
+checked circle: 532 
+checked circle: 536 
+checked circle: 540 
+checked circle: 544 
+checked circle: 548 
+checked circle: 552 
+checked circle: 556 
+checked circle: 560 
+checked circle: 564 
+checked circle: 568 
+checked circle: 572 
+checked circle: 576 
+checked circle: 580 
+checked circle: 584 
+checked circle: 588 
+checked circle: 592 
+checked circle: 596 
+checked circle: 600 
+checked circle: 604 
+checked circle: 608 
+checked circle: 612 
+checked circle: 616 
+checked circle: 620 
+checked circle: 624 
+checked circle: 628 
+checked circle: 632 
+checked circle: 636 
+checked circle: 0 
+checked circle: 4 
+checked circle: 8 
+checked circle: 12 
+checked circle: 16 
+checked circle: 20 
+checked circle: 24 
+checked circle: 28 
+checked circle: 32 
+checked circle: 36 
+checked circle: 40 
+checked circle: 44 
+checked circle: 48 
+checked circle: 52 
+checked circle: 56 
+checked circle: 60 
+checked circle: 64 
+checked circle: 68 
+checked circle: 72 
+checked circle: 76 
+checked circle: 80 
+checked circle: 84 
+checked circle: 88 
+checked circle: 92 
+checked circle: 96 
+checked circle: 100 
+checked circle: 104 
+checked circle: 108 
+checked circle: 112 
+checked circle: 116 
+checked circle: 120 
+checked circle: 124 
+checked circle: 768 
+checked circle: 772 
+checked circle: 776 
+checked circle: 780 
+checked circle: 784 
+checked circle: 788 
+checked circle: 792 
+checked circle: 796 
+checked circle: 800 
+checked circle: 804 
+checked circle: 808 
+checked circle: 812 
+checked circle: 816 
+checked circle: 820 
+checked circle: 824 
+checked circle: 828 
+checked circle: 832 
+checked circle: 836 
+checked circle: 840 
+checked circle: 844 
+checked circle: 848 
+checked circle: 852 
+checked circle: 856 
+checked circle: 860 
+checked circle: 864 
+checked circle: 868 
+checked circle: 872 
+checked circle: 876 
+checked circle: 880 
+checked circle: 884 
+checked circle: 888 
+checked circle: 892 
+checked circle: 256 
+checked circle: 260 
+checked circle: 264 
+checked circle: 268 
+checked circle: 272 
+checked circle: 276 
+checked circle: 280 
+checked circle: 284 
+checked circle: 288 
+checked circle: 292 
+checked circle: 296 
+checked circle: 300 
+checked circle: 304 
+checked circle: 308 
+checked circle: 312 
+checked circle: 316 
+checked circle: 320 
+checked circle: 324 
+checked circle: 328 
+checked circle: 332 
+checked circle: 336 
+checked circle: 340 
+checked circle: 344 
+checked circle: 348 
+checked circle: 352 
+checked circle: 356 
+checked circle: 360 
+checked circle: 364 
+checked circle: 368 
+checked circle: 372 
+checked circle: 376 
+checked circle: 380 
+checked circle: 641 
+checked circle: 645 
+checked circle: 649 
+checked circle: 653 
+checked circle: 657 
+checked circle: 661 
+checked circle: 665 
+checked circle: 669 
+checked circle: 673 
+checked circle: 677 
+checked circle: 681 
+checked circle: 685 
+checked circle: 689 
+checked circle: 693 
+checked circle: 697 
+checked circle: 701 
+checked circle: 705 
+checked circle: 709 
+checked circle: 713 
+checked circle: 717 
+checked circle: 721 
+checked circle: 725 
+checked circle: 729 
+checked circle: 733 
+checked circle: 737 
+checked circle: 741 
+checked circle: 745 
+checked circle: 749 
+checked circle: 753 
+checked circle: 757 
+checked circle: 761 
+checked circle: 765 
+checked circle: 513 
+checked circle: 517 
+checked circle: 521 
+checked circle: 525 
+checked circle: 529 
+checked circle: 533 
+checked circle: 537 
+checked circle: 541 
+checked circle: 545 
+checked circle: 549 
+checked circle: 553 
+checked circle: 557 
+checked circle: 561 
+checked circle: 565 
+checked circle: 569 
+checked circle: 573 
+checked circle: 577 
+checked circle: 581 
+checked circle: 585 
+checked circle: 589 
+checked circle: 593 
+checked circle: 597 
+checked circle: 601 
+checked circle: 605 
+checked circle: 609 
+checked circle: 613 
+checked circle: 617 
+checked circle: 621 
+checked circle: 625 
+checked circle: 629 
+checked circle: 633 
+checked circle: 637 
+checked circle: 897 
+checked circle: 901 
+checked circle: 905 
+checked circle: 909 
+checked circle: 913 
+checked circle: 917 
+checked circle: 921 
+checked circle: 925 
+checked circle: 929 
+checked circle: 933 
+checked circle: 937 
+checked circle: 941 
+checked circle: 945 
+checked circle: 949 
+checked circle: 953 
+checked circle: 957 
+checked circle: 961 
+checked circle: 965 
+checked circle: 969 
+checked circle: 973 
+checked circle: 977 
+checked circle: 981 
+checked circle: 985 
+checked circle: 989 
+checked circle: 993 
+checked circle: 997 
+checked circle: 1001 
+checked circle: 1005 
+checked circle: 1009 
+checked circle: 1013 
+checked circle: 1017 
+checked circle: 1021 
+checked circle: 1 
+checked circle: 5 
+checked circle: 9 
+checked circle: 13 
+checked circle: 17 
+checked circle: 21 
+checked circle: 25 
+checked circle: 29 
+checked circle: 33 
+checked circle: 37 
+checked circle: 41 
+checked circle: 45 
+checked circle: 49 
+checked circle: 53 
+checked circle: 57 
+checked circle: 61 
+checked circle: 65 
+checked circle: 69 
+checked circle: 73 
+checked circle: 77 
+checked circle: 81 
+checked circle: 85 
+checked circle: 89 
+checked circle: 93 
+checked circle: 97 
+checked circle: 101 
+checked circle: 105 
+checked circle: 109 
+checked circle: 113 
+checked circle: 117 
+checked circle: 121 
+checked circle: 125 
+checked circle: 385 
+checked circle: 389 
+checked circle: 393 
+checked circle: 397 
+checked circle: 401 
+checked circle: 405 
+checked circle: 409 
+checked circle: 413 
+checked circle: 417 
+checked circle: 421 
+checked circle: 425 
+checked circle: 429 
+checked circle: 433 
+checked circle: 437 
+checked circle: 441 
+checked circle: 445 
+checked circle: 449 
+checked circle: 453 
+checked circle: 457 
+checked circle: 461 
+checked circle: 465 
+checked circle: 469 
+checked circle: 473 
+checked circle: 477 
+checked circle: 481 
+checked circle: 485 
+checked circle: 489 
+checked circle: 493 
+checked circle: 497 
+checked circle: 501 
+checked circle: 505 
+checked circle: 509 
+checked circle: 129 
+checked circle: 133 
+checked circle: 137 
+checked circle: 141 
+checked circle: 145 
+checked circle: 149 
+checked circle: 153 
+checked circle: 157 
+checked circle: 161 
+checked circle: 165 
+checked circle: 169 
+checked circle: 173 
+checked circle: 177 
+checked circle: 181 
+checked circle: 185 
+checked circle: 189 
+checked circle: 193 
+checked circle: 197 
+checked circle: 201 
+checked circle: 205 
+checked circle: 209 
+checked circle: 213 
+checked circle: 217 
+checked circle: 221 
+checked circle: 225 
+checked circle: 229 
+checked circle: 233 
+checked circle: 237 
+checked circle: 241 
+checked circle: 245 
+checked circle: 249 
+checked circle: 253 
+checked circle: 769 
+checked circle: 773 
+checked circle: 777 
+checked circle: 781 
+checked circle: 785 
+checked circle: 789 
+checked circle: 793 
+checked circle: 797 
+checked circle: 801 
+checked circle: 805 
+checked circle: 809 
+checked circle: 813 
+checked circle: 817 
+checked circle: 821 
+checked circle: 825 
+checked circle: 829 
+checked circle: 833 
+checked circle: 837 
+checked circle: 841 
+checked circle: 845 
+checked circle: 849 
+checked circle: 853 
+checked circle: 857 
+checked circle: 861 
+checked circle: 865 
+checked circle: 869 
+checked circle: 873 
+checked circle: 877 
+checked circle: 881 
+checked circle: 885 
+checked circle: 889 
+checked circle: 893 
+checked circle: 257 
+checked circle: 261 
+checked circle: 265 
+checked circle: 269 
+checked circle: 273 
+checked circle: 277 
+checked circle: 281 
+checked circle: 285 
+checked circle: 289 
+checked circle: 293 
+checked circle: 297 
+checked circle: 301 
+checked circle: 305 
+checked circle: 309 
+checked circle: 313 
+checked circle: 317 
+checked circle: 321 
+checked circle: 325 
+checked circle: 329 
+checked circle: 333 
+checked circle: 337 
+checked circle: 341 
+checked circle: 345 
+checked circle: 349 
+checked circle: 353 
+checked circle: 357 
+checked circle: 361 
+checked circle: 365 
+checked circle: 369 
+checked circle: 373 
+checked circle: 377 
+checked circle: 381 
+checked circle: 770 
+checked circle: 774 
+checked circle: 778 
+checked circle: 782 
+checked circle: 786 
+checked circle: 790 
+checked circle: 794 
+checked circle: 798 
+checked circle: 802 
+checked circle: 806 
+checked circle: 810 
+checked circle: 814 
+checked circle: 818 
+checked circle: 822 
+checked circle: 826 
+checked circle: 830 
+checked circle: 834 
+checked circle: 838 
+checked circle: 842 
+checked circle: 846 
+checked circle: 850 
+checked circle: 854 
+checked circle: 858 
+checked circle: 862 
+checked circle: 866 
+checked circle: 870 
+checked circle: 874 
+checked circle: 878 
+checked circle: 882 
+checked circle: 886 
+checked circle: 890 
+checked circle: 894 
+checked circle: 642 
+checked circle: 646 
+checked circle: 650 
+checked circle: 654 
+checked circle: 658 
+checked circle: 662 
+checked circle: 666 
+checked circle: 670 
+checked circle: 674 
+checked circle: 678 
+checked circle: 682 
+checked circle: 686 
+checked circle: 690 
+checked circle: 694 
+checked circle: 698 
+checked circle: 702 
+checked circle: 706 
+checked circle: 710 
+checked circle: 714 
+checked circle: 718 
+checked circle: 722 
+checked circle: 726 
+checked circle: 730 
+checked circle: 734 
+checked circle: 738 
+checked circle: 742 
+checked circle: 746 
+checked circle: 750 
+checked circle: 754 
+checked circle: 758 
+checked circle: 762 
+checked circle: 766 
+checked circle: 258 
+checked circle: 262 
+checked circle: 266 
+checked circle: 270 
+checked circle: 274 
+checked circle: 278 
+checked circle: 282 
+checked circle: 286 
+checked circle: 290 
+checked circle: 294 
+checked circle: 298 
+checked circle: 302 
+checked circle: 306 
+checked circle: 310 
+checked circle: 314 
+checked circle: 318 
+checked circle: 322 
+checked circle: 326 
+checked circle: 330 
+checked circle: 334 
+checked circle: 338 
+checked circle: 342 
+checked circle: 346 
+checked circle: 350 
+checked circle: 354 
+checked circle: 358 
+checked circle: 362 
+checked circle: 366 
+checked circle: 370 
+checked circle: 374 
+checked circle: 378 
+checked circle: 382 
+checked circle: 130 
+checked circle: 134 
+checked circle: 138 
+checked circle: 142 
+checked circle: 146 
+checked circle: 150 
+checked circle: 154 
+checked circle: 158 
+checked circle: 162 
+checked circle: 166 
+checked circle: 170 
+checked circle: 174 
+checked circle: 178 
+checked circle: 182 
+checked circle: 186 
+checked circle: 190 
+checked circle: 194 
+checked circle: 198 
+checked circle: 202 
+checked circle: 206 
+checked circle: 210 
+checked circle: 214 
+checked circle: 218 
+checked circle: 222 
+checked circle: 226 
+checked circle: 230 
+checked circle: 234 
+checked circle: 238 
+checked circle: 242 
+checked circle: 246 
+checked circle: 250 
+checked circle: 254 
+checked circle: 898 
+checked circle: 902 
+checked circle: 906 
+checked circle: 910 
+checked circle: 914 
+checked circle: 918 
+checked circle: 922 
+checked circle: 926 
+checked circle: 930 
+checked circle: 934 
+checked circle: 938 
+checked circle: 942 
+checked circle: 946 
+checked circle: 950 
+checked circle: 954 
+checked circle: 958 
+checked circle: 962 
+checked circle: 966 
+checked circle: 970 
+checked circle: 974 
+checked circle: 978 
+checked circle: 982 
+checked circle: 986 
+checked circle: 990 
+checked circle: 994 
+checked circle: 998 
+checked circle: 1002 
+checked circle: 1006 
+checked circle: 1010 
+checked circle: 1014 
+checked circle: 1018 
+checked circle: 1022 
+checked circle: 386 
+checked circle: 390 
+checked circle: 394 
+checked circle: 398 
+checked circle: 402 
+checked circle: 406 
+checked circle: 410 
+checked circle: 414 
+checked circle: 418 
+checked circle: 422 
+checked circle: 426 
+checked circle: 430 
+checked circle: 434 
+checked circle: 438 
+checked circle: 442 
+checked circle: 446 
+checked circle: 450 
+checked circle: 454 
+checked circle: 458 
+checked circle: 462 
+checked circle: 466 
+checked circle: 470 
+checked circle: 474 
+checked circle: 478 
+checked circle: 482 
+checked circle: 486 
+checked circle: 490 
+checked circle: 494 
+checked circle: 498 
+checked circle: 502 
+checked circle: 506 
+checked circle: 510 
+checked circle: 514 
+checked circle: 518 
+checked circle: 522 
+checked circle: 526 
+checked circle: 530 
+checked circle: 534 
+checked circle: 538 
+checked circle: 542 
+checked circle: 546 
+checked circle: 550 
+checked circle: 554 
+checked circle: 558 
+checked circle: 562 
+checked circle: 566 
+checked circle: 570 
+checked circle: 574 
+checked circle: 578 
+checked circle: 582 
+checked circle: 586 
+checked circle: 590 
+checked circle: 594 
+checked circle: 598 
+checked circle: 602 
+checked circle: 606 
+checked circle: 610 
+checked circle: 614 
+checked circle: 618 
+checked circle: 622 
+checked circle: 626 
+checked circle: 630 
+checked circle: 634 
+checked circle: 638 
+checked circle: 2 
+checked circle: 6 
+checked circle: 10 
+checked circle: 14 
+checked circle: 18 
+checked circle: 22 
+checked circle: 26 
+checked circle: 30 
+checked circle: 34 
+checked circle: 38 
+checked circle: 42 
+checked circle: 46 
+checked circle: 50 
+checked circle: 54 
+checked circle: 58 
+checked circle: 62 
+checked circle: 66 
+checked circle: 70 
+checked circle: 74 
+checked circle: 78 
+checked circle: 82 
+checked circle: 86 
+checked circle: 90 
+checked circle: 94 
+checked circle: 98 
+checked circle: 102 
+checked circle: 106 
+checked circle: 110 
+checked circle: 114 
+checked circle: 118 
+checked circle: 122 
+checked circle: 126 
+checked circle: 3 
+checked circle: 7 
+checked circle: 11 
+checked circle: 15 
+checked circle: 19 
+checked circle: 23 
+checked circle: 27 
+checked circle: 31 
+checked circle: 35 
+checked circle: 39 
+checked circle: 43 
+checked circle: 47 
+checked circle: 51 
+checked circle: 55 
+checked circle: 59 
+checked circle: 63 
+checked circle: 67 
+checked circle: 71 
+checked circle: 75 
+checked circle: 79 
+checked circle: 83 
+checked circle: 87 
+checked circle: 91 
+checked circle: 95 
+checked circle: 99 
+checked circle: 103 
+checked circle: 107 
+checked circle: 111 
+checked circle: 115 
+checked circle: 119 
+checked circle: 123 
+checked circle: 127 
+checked circle: 515 
+checked circle: 519 
+checked circle: 523 
+checked circle: 527 
+checked circle: 531 
+checked circle: 535 
+checked circle: 539 
+checked circle: 543 
+checked circle: 547 
+checked circle: 551 
+checked circle: 555 
+checked circle: 559 
+checked circle: 563 
+checked circle: 567 
+checked circle: 571 
+checked circle: 575 
+checked circle: 579 
+checked circle: 583 
+checked circle: 587 
+checked circle: 591 
+checked circle: 595 
+checked circle: 599 
+checked circle: 603 
+checked circle: 607 
+checked circle: 611 
+checked circle: 615 
+checked circle: 619 
+checked circle: 623 
+checked circle: 627 
+checked circle: 631 
+checked circle: 635 
+checked circle: 639 
+checked circle: 899 
+checked circle: 903 
+checked circle: 907 
+checked circle: 911 
+checked circle: 915 
+checked circle: 919 
+checked circle: 923 
+checked circle: 927 
+checked circle: 931 
+checked circle: 935 
+checked circle: 939 
+checked circle: 943 
+checked circle: 947 
+checked circle: 951 
+checked circle: 955 
+checked circle: 959 
+checked circle: 963 
+checked circle: 967 
+checked circle: 971 
+checked circle: 975 
+checked circle: 979 
+checked circle: 983 
+checked circle: 987 
+checked circle: 991 
+checked circle: 995 
+checked circle: 999 
+checked circle: 1003 
+checked circle: 1007 
+checked circle: 1011 
+checked circle: 1015 
+checked circle: 1019 
+checked circle: 1023 
+checked circle: 771 
+checked circle: 775 
+checked circle: 779 
+checked circle: 783 
+checked circle: 787 
+checked circle: 791 
+checked circle: 795 
+checked circle: 799 
+checked circle: 803 
+checked circle: 807 
+checked circle: 811 
+checked circle: 815 
+checked circle: 819 
+checked circle: 823 
+checked circle: 827 
+checked circle: 831 
+checked circle: 835 
+checked circle: 839 
+checked circle: 843 
+checked circle: 847 
+checked circle: 851 
+checked circle: 855 
+checked circle: 859 
+checked circle: 863 
+checked circle: 867 
+checked circle: 871 
+checked circle: 875 
+checked circle: 879 
+checked circle: 883 
+checked circle: 887 
+checked circle: 891 
+checked circle: 895 
+checked circle: 259 
+checked circle: 263 
+checked circle: 267 
+checked circle: 271 
+checked circle: 275 
+checked circle: 279 
+checked circle: 283 
+checked circle: 287 
+checked circle: 291 
+checked circle: 295 
+checked circle: 299 
+checked circle: 303 
+checked circle: 307 
+checked circle: 311 
+checked circle: 315 
+checked circle: 319 
+checked circle: 323 
+checked circle: 327 
+checked circle: 331 
+checked circle: 335 
+checked circle: 339 
+checked circle: 343 
+checked circle: 347 
+checked circle: 351 
+checked circle: 355 
+checked circle: 359 
+checked circle: 363 
+checked circle: 367 
+checked circle: 371 
+checked circle: 375 
+checked circle: 379 
+checked circle: 383 
+checked circle: 643 
+checked circle: 647 
+checked circle: 651 
+checked circle: 655 
+checked circle: 659 
+checked circle: 663 
+checked circle: 667 
+checked circle: 671 
+checked circle: 675 
+checked circle: 679 
+checked circle: 683 
+checked circle: 687 
+checked circle: 691 
+checked circle: 695 
+checked circle: 699 
+checked circle: 703 
+checked circle: 707 
+checked circle: 711 
+checked circle: 715 
+checked circle: 719 
+checked circle: 723 
+checked circle: 727 
+checked circle: 731 
+checked circle: 735 
+checked circle: 739 
+checked circle: 743 
+checked circle: 747 
+checked circle: 751 
+checked circle: 755 
+checked circle: 759 
+checked circle: 763 
+checked circle: 767 
+checked circle: 131 
+checked circle: 135 
+checked circle: 139 
+checked circle: 143 
+checked circle: 147 
+checked circle: 151 
+checked circle: 155 
+checked circle: 159 
+checked circle: 163 
+checked circle: 167 
+checked circle: 171 
+checked circle: 175 
+checked circle: 179 
+checked circle: 183 
+checked circle: 187 
+checked circle: 191 
+checked circle: 195 
+checked circle: 199 
+checked circle: 203 
+checked circle: 207 
+checked circle: 211 
+checked circle: 215 
+checked circle: 219 
+checked circle: 223 
+checked circle: 227 
+checked circle: 231 
+checked circle: 235 
+checked circle: 239 
+checked circle: 243 
+checked circle: 247 
+checked circle: 251 
+checked circle: 255 
+checked circle: 387 
+checked circle: 391 
+checked circle: 395 
+checked circle: 399 
+checked circle: 403 
+checked circle: 407 
+checked circle: 411 
+checked circle: 415 
+checked circle: 419 
+checked circle: 423 
+checked circle: 427 
+checked circle: 431 
+checked circle: 435 
+checked circle: 439 
+checked circle: 443 
+checked circle: 447 
+checked circle: 451 
+checked circle: 455 
+checked circle: 459 
+checked circle: 463 
+checked circle: 467 
+checked circle: 471 
+checked circle: 475 
+checked circle: 479 
+checked circle: 483 
+checked circle: 487 
+checked circle: 491 
+checked circle: 495 
+checked circle: 499 
+checked circle: 503 
+checked circle: 507 
+checked circle: 511 
+Copying image data from device
+Wrote image file output_0000.ppm
+Copying image data from device
+Mismatch detected at pixel [205][389], value = 1.000000, expected 0.500000 for color Green
+Mismatch detected at pixel [205][389], value = 1.000000, expected 0.500000 for color Blue
+Mismatch detected at pixel [205][390], value = 1.000000, expected 0.500000 for color Green
+Mismatch detected at pixel [205][390], value = 1.000000, expected 0.500000 for color Blue
+Mismatch detected at pixel [205][391], value = 1.000000, expected 0.500000 for color Green
+Mismatch detected at pixel [205][391], value = 1.000000, expected 0.500000 for color Blue
+ERROR : Mismatch detected between reference and actual
+Rendering to 1024x1024 image
+Loaded scene with 3 circles
+Loaded scene with 3 circles
+---------------------------------------------------------
+Initializing CUDA for CudaRenderer
+Found 1 CUDA devices
+Device 0: NVIDIA T4G
+   SMs:        40
+   Global mem: 14918 MB
+   CUDA Cap:   7.5
+---------------------------------------------------------
+
+Running benchmark, 1 frames, beginning at frame 0 ...
+Dumping frames to output_xxx.ppm
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.400000, p.y: 0.500000, radius: 0.300000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 1.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.300000, p.y: 0.300000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.500000, p.y: 0.500000, radius: 0.300000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 1.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.600000, p.y: 0.500000, radius: 0.300000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+min pixel x: 192, max pixel x: 208, min pixel y: 384, max pixel y: 400, p.x: 0.000000, p.y: 0.000000, radius: 0.000000 
+Copying image data from device
+Wrote image file output_0000.ppm
+Copying image data from device
+Mismatch detected at pixel [205][389], value = 1.000000, expected 0.500000 for color Green
+Mismatch detected at pixel [205][389], value = 1.000000, expected 0.500000 for color Blue
+Mismatch detected at pixel [205][390], value = 1.000000, expected 0.500000 for color Green
+Mismatch detected at pixel [205][390], value = 1.000000, expected 0.500000 for color Blue
+Mismatch detected at pixel [205][391], value = 1.000000, expected 0.500000 for color Green
+Mismatch detected at pixel [205][391], value = 1.000000, expected 0.500000 for color Blue
+ERROR : Mismatch detected between reference and actual

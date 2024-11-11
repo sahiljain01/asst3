@@ -224,7 +224,7 @@ RefRenderer::advanceAnimation() {
                 // compute vector from firework-spark
                 float cxsx = sx - cx; 
                 float cysy = sy - cy;
-    
+
                 // compute distance from fire-work 
                 float dist = sqrt(cxsx * cxsx + cysy * cysy);
                 if (dist > maxDist) { // restore to starting position 

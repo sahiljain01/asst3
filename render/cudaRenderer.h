@@ -16,16 +16,19 @@ private:
     SceneName sceneName;
 
     int numCircles;
+    int numPixels;
     float* position;
     float* velocity;
     float* color;
     float* radius;
+    float* circleToPixel;
 
     float* cudaDevicePosition;
     float* cudaDeviceVelocity;
     float* cudaDeviceColor;
     float* cudaDeviceRadius;
     float* cudaDeviceImageData;
+    float* cudaCircleToPixel;
 
 public:
 
