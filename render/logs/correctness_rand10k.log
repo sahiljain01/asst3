@@ -12,14 +12,14 @@ Device 0: NVIDIA T4G
 
 Running benchmark, 1 frames, beginning at frame 0 ...
 Dumping frames to logs/output_xxx.ppm
-was here: 0, 0 
 Copying image data from device
 Wrote image file logs/output_0000.ppm
 Copying image data from device
-Mismatch detected at pixel [369][459], value = 0.412688, expected 0.596539 for color Red
-Mismatch detected at pixel [369][460], value = 0.412257, expected 0.596324 for color Red
-Mismatch detected at pixel [370][456], value = 0.404510, expected 0.592450 for color Red
-Mismatch detected at pixel [370][457], value = 0.412741, expected 0.596566 for color Red
-Mismatch detected at pixel [370][458], value = 0.412678, expected 0.596534 for color Red
-Mismatch detected at pixel [370][459], value = 0.412688, expected 0.596539 for color Red
-ERROR : Mismatch detected between reference and actual
+***************** Correctness check passed **************************
+Clear:    0.1520 ms
+Advance:  0.0020 ms
+Render:   3.7138 ms
+Total:    3.8678 ms
+File IO:  88.5867 ms
+
+Overall:  0.7044 sec (note units are seconds)

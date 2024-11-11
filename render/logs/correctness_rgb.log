@@ -12,15 +12,14 @@ Device 0: NVIDIA T4G
 
 Running benchmark, 1 frames, beginning at frame 0 ...
 Dumping frames to logs/output_xxx.ppm
-was here: 0, 0 
 Copying image data from device
 Wrote image file logs/output_0000.ppm
 Copying image data from device
 ***************** Correctness check passed **************************
-Clear:    0.1333 ms
-Advance:  0.0025 ms
-Render:   0.2432 ms
-Total:    0.3790 ms
-File IO:  81.1750 ms
+Clear:    0.1581 ms
+Advance:  0.0019 ms
+Render:   0.1724 ms
+Total:    0.3325 ms
+File IO:  84.0419 ms
 
-Overall:  0.1034 sec (note units are seconds)
+Overall:  0.1068 sec (note units are seconds)
