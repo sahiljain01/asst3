@@ -496,16 +496,6 @@ __global__ void kernelRenderPixels() {
 
     int flattenedIndex = threadIdx.y * blockDim.x + threadIdx.x;
 
-    // if ((pixelY == 0) && (pixelX == 772)) {
-    //     printf("was here at pixel! \n");
-    // }
-
-    // if ((pixelX == 416) && (pixelY == 1184)) {
-    //     printf("was here!!!!!! \n");
-    //     printf("indeed here!!!!!! \n");
-
-    // }
-
     const int numCirclesPadded = nextPow2(cuConstRendererParams.numCircles);
     const int CIRCLE_STEP_LENGTH = 1024;
 
@@ -514,11 +504,6 @@ __global__ void kernelRenderPixels() {
     __shared__ uint circleArray[CIRCLE_STEP_LENGTH];
     __shared__ uint scratchArray[CIRCLE_STEP_LENGTH * 2];
 
-    shouldCheckCircle[flattenedIndex] = 0;
-    resultArray[flattenedIndex] = 0; 
-    circleArray[flattenedIndex] = 0; 
-    scratchArray[flattenedIndex] = 0; 
-
     const int NUM_THREADS_WORKING = blockDim.x * blockDim.y;
     const int CIRCLES_PER_THREAD = CIRCLE_STEP_LENGTH / NUM_THREADS_WORKING;
     const int THREAD_TO_CIRCLE_OFFSET = (flattenedIndex) * CIRCLES_PER_THREAD;
@@ -526,34 +511,37 @@ __global__ void kernelRenderPixels() {
     float invWidth = 1.f / imageWidth;
     float invHeight = 1.f / imageHeight;
 
-    // float pixelLeft = invWidth * (static_cast<float>(pixelX) - 0.5f);
-    // float pixelRight = invWidth * (static_cast<float>(pixelX) + 0.5f);
-    // float pixelBottom = invHeight * (static_cast<float>(pixelY) - 0.5f);
-    // float pixelTop = invHeight * (static_cast<float>(pixelY) + 0.5f);
+    float4* imgPtr = NULL;
+    float4 existingColor;
+    float4 newColor;
+    float2 pixelCenter = make_float2(invWidth * (static_cast<float>(pixelX) + 0.5f),
+                                                invHeight * (static_cast<float>(pixelY) + 0.5f));
+
+    if (((pixelX < imageWidth) && (pixelY < imageHeight))) {
+        imgPtr = (float4*)(&cuConstRendererParams.imageData[4 * (pixelY * imageWidth + pixelX)]);
+        existingColor = *imgPtr;
+        newColor = existingColor;
+    }
 
     for (int circleIndex = 0; circleIndex < cuConstRendererParams.numCircles; circleIndex += CIRCLE_STEP_LENGTH) {
-        int circleIndexForThread = circleIndex + THREAD_TO_CIRCLE_OFFSET;
-        for (int k = 0; k < CIRCLES_PER_THREAD; k++) {
-            int circleIndexAtK = circleIndexForThread + k;
-            circleArray[THREAD_TO_CIRCLE_OFFSET + k] = 0;
-            resultArray[THREAD_TO_CIRCLE_OFFSET + k] = 0;
-            scratchArray[THREAD_TO_CIRCLE_OFFSET + k] = 0;
-            scratchArray[THREAD_TO_CIRCLE_OFFSET + k + CIRCLE_STEP_LENGTH] = 0;
-            shouldCheckCircle[THREAD_TO_CIRCLE_OFFSET + k] = 0;
-            if (circleIndexAtK < cuConstRendererParams.numCircles) {
-                float3 p = *(float3*)(&cuConstRendererParams.position[circleIndexAtK * 3]);
-                float rad = cuConstRendererParams.radius[circleIndexAtK];
+        circleArray[THREAD_TO_CIRCLE_OFFSET ] = 0;
+        resultArray[THREAD_TO_CIRCLE_OFFSET] = 0;
+        scratchArray[THREAD_TO_CIRCLE_OFFSET] = 0;
+        scratchArray[THREAD_TO_CIRCLE_OFFSET + CIRCLE_STEP_LENGTH] = 0;
+        shouldCheckCircle[THREAD_TO_CIRCLE_OFFSET] = 0;
 
-                float minPixelXNormalized = invWidth * static_cast<float>(minPixelX);
-                float maxPixelXNormalized = invWidth * static_cast<float>(maxPixelX);
-                float minPixelYNormalized = invHeight * static_cast<float>(minPixelY);
-                float maxPixelYNormalized = invHeight * static_cast<float>(maxPixelY);
+        if ((circleIndex + THREAD_TO_CIRCLE_OFFSET) < cuConstRendererParams.numCircles) {
+            float3 p = *(float3*)(&cuConstRendererParams.position[(circleIndex + THREAD_TO_CIRCLE_OFFSET) * 3]);
+            float rad = cuConstRendererParams.radius[circleIndex + THREAD_TO_CIRCLE_OFFSET];
 
+            float minPixelXNormalized = invWidth * static_cast<float>(minPixelX);
+            float maxPixelXNormalized = invWidth * static_cast<float>(maxPixelX);
+            float minPixelYNormalized = invHeight * static_cast<float>(minPixelY);
+            float maxPixelYNormalized = invHeight * static_cast<float>(maxPixelY);
 
-                if (circleInBoxConservative(p.x, p.y, rad, minPixelXNormalized, maxPixelXNormalized, maxPixelYNormalized, minPixelYNormalized)) {
-                    if (circleInBox(p.x, p.y, rad, minPixelXNormalized, maxPixelXNormalized, maxPixelYNormalized, minPixelYNormalized)) {
-                        shouldCheckCircle[THREAD_TO_CIRCLE_OFFSET + k] = 1;
-                    }
+            if (circleInBoxConservative(p.x, p.y, rad, minPixelXNormalized, maxPixelXNormalized, maxPixelYNormalized, minPixelYNormalized)) {
+                if (circleInBox(p.x, p.y, rad, minPixelXNormalized, maxPixelXNormalized, maxPixelYNormalized, minPixelYNormalized)) {
+                    shouldCheckCircle[THREAD_TO_CIRCLE_OFFSET] = 1;
                 }
             }
         }
@@ -575,17 +563,7 @@ __global__ void kernelRenderPixels() {
             totalNumberCircles++;
         }
 
-        // todo fix this return condition
         if (((pixelX < imageWidth) && (pixelY < imageHeight))) {
-            float4* imgPtr = (float4*)(&cuConstRendererParams.imageData[4 * (pixelY * imageWidth + pixelX)]);
-            float2 pixelCenter = make_float2(invWidth * (static_cast<float>(pixelX) + 0.5f),
-                                                invHeight * (static_cast<float>(pixelY) + 0.5f));
-
-            float4 existingColor = *imgPtr;
-            float4 newColor = existingColor;
-            // if ((pixelX == 0) && (pixelY == 2)) {
-            //     printf("hello world! \n");
-            // }
             if (cuConstRendererParams.sceneName == SNOWFLAKES || cuConstRendererParams.sceneName == SNOWFLAKES_SINGLE_FRAME) {
                 for (int j = 0; j < totalNumberCircles; j++) {
                     int currentCircle = circleArray[j] + circleIndex;
@@ -598,7 +576,6 @@ __global__ void kernelRenderPixels() {
                     float rad = cuConstRendererParams.radius[currentCircle];
                     float maxDist = rad * rad;
 
-                    // circle does not contribute to the image
                     if (pixelDist > maxDist)
                         continue;
 
@@ -636,10 +613,6 @@ __global__ void kernelRenderPixels() {
                     float diffY = p.y - pixelCenter.y;
                     float pixelDist = diffX * diffX + diffY * diffY;
 
-                    // if ((pixelX == 0) && (pixelY == 2)) {
-                    //     printf("circle index applied: %d \n", currentCircle);
-                    // }
-
                     float maxDist = rad * rad;
                     // circle does not contribute to the image
                     if (pixelDist > maxDist)
@@ -651,27 +624,12 @@ __global__ void kernelRenderPixels() {
                     newColor.y = alpha * rgb.y + oneMinusAlpha * newColor.y;
                     newColor.z = alpha * rgb.z + oneMinusAlpha * newColor.z;
                     newColor.w = alpha + newColor.w;
-                    // shadePixel(currentCircle, pixelCenter, p, imgPtr);
                 }
             }
-            *imgPtr = newColor;
-
-            // if ((pixelX == 416) && (pixelY == 1184)) {
-            //     printf("total number of circles: %d \n", totalNumberCircles);
-            //     printf("x: %f, y: %f, z: %f \n", newColor.x, newColor.y, newColor.z);
-            //     printf("value at index: %f \n", cuConstRendererParams.imageData[4 * (pixelY * imageWidth + pixelX)]);
-            //     // for (int j = 0; j < totalNumberCircles; j++) {
-            //     printf("circle index: %d \n", circleIndex);
-            // }
-
         }
-        // else {
-        //     int a = 5;
-        //     // printf("pixel X: %d, pixel Y: %d \n", pixelX, pixelY);
-        // }
-        // printf("thread %d arrived at the end! \n", flattenedIndex);
         __syncthreads();
     }
+    *imgPtr = newColor;
 }
 
 
