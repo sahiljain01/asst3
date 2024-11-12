@@ -629,7 +629,9 @@ __global__ void kernelRenderPixels() {
         }
         __syncthreads();
     }
-    *imgPtr = newColor;
+    if (((pixelX < imageWidth) && (pixelY < imageHeight))) {
+        *imgPtr = newColor;
+    }
 }
 
 
